@@ -150,7 +150,7 @@ def main():
     print("Waiting for certstream events - this could take a few minutes to queue up...")
     certstream.listen_for_events(listen) #blocking
 
-    print("Qutting - waiting for threads to finish up...")
+    print("Quitting - waiting for threads to finish up...")
     BUCKET_QUEUE.join()
 
 
